@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  title: "Hi , I'm Bishwa",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Web Developer 🚀 having an experience of building Web  with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/bishwakarki",
+  linkedin: "https://www.linkedin.com/in/bishwa-karki-810882262/",
+  gmail: "bishowkarki24@gmail.com",
+  facebook: "https://www.facebook.com/bishow.karki.186/",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -84,38 +82,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+  
+   
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    
+   
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +101,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "CG Institute of management",
+      logo: require("./assets/images/CGIM_LOGO.jpg"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "August 2021 - Present",
+      desc: "Participated in the Business Bootcamp of 7 days and presented Idea in the conference.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a mini project in C++ and JAVA",
+        "Built Recommendation System as a major project"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Texas International college",
+      logo: require("./assets/images/TexasCollege.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "May 2019 - May 2021",
+      desc: "Taken part in various sports events in college and educational programs, ...",
+      descBullets: ["Volunteered as a community leader to guide about environment protection"]
     }
   ]
 };
@@ -154,12 +129,9 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
+   
     {
       Stack: "Programming",
       progressPercentage: "60%"
@@ -363,8 +335,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+977-9865062920",
+  email_address: "bishowkarki24@gmail.com"
 };
 
 // Twitter Section
