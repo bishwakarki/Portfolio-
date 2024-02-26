@@ -114,7 +114,7 @@ const educationInfo = {
     {
       schoolName: "Texas International college",
       logo: require("./assets/images/TexasCollege.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "+ 2 Science",
       duration: "May 2019 - May 2021",
       desc: "Taken part in various sports events in college and educational programs, ...",
       descBullets: ["Volunteered as a community leader to guide about environment protection"]
